@@ -25,7 +25,6 @@
             difference = 0;
             laps = [];
         }
-
         function recordLap() {
             if (running) {
                 laps.push(document.getElementById("display").innerText);
